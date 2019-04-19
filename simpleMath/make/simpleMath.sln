@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "simpleMath", "simpleMath.vcxproj", "{BB2DD7B0-88D3-4B89-BB14-4E34466DC598}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "unitTest_simpleMath", "..\unitTest_simpleMath\unitTest_simpleMath.vcxproj", "{E014EE6A-7D2D-4B10-9F89-FB6B95B1876B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GoogleTest", "..\..\googletest-release-1.8.1\googletest\make\GoogleTest\GoogleTest.vcxproj", "{B435B632-7EDD-40E6-98E9-67FE06360331}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB2DD7B0-88D3-4B89-BB14-4E34466DC598}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BB2DD7B0-88D3-4B89-BB14-4E34466DC598}.Debug|Win32.Build.0 = Debug|Win32
+		{BB2DD7B0-88D3-4B89-BB14-4E34466DC598}.Release|Win32.ActiveCfg = Release|Win32
+		{BB2DD7B0-88D3-4B89-BB14-4E34466DC598}.Release|Win32.Build.0 = Release|Win32
+		{E014EE6A-7D2D-4B10-9F89-FB6B95B1876B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E014EE6A-7D2D-4B10-9F89-FB6B95B1876B}.Debug|Win32.Build.0 = Debug|Win32
+		{E014EE6A-7D2D-4B10-9F89-FB6B95B1876B}.Release|Win32.ActiveCfg = Release|Win32
+		{E014EE6A-7D2D-4B10-9F89-FB6B95B1876B}.Release|Win32.Build.0 = Release|Win32
+		{B435B632-7EDD-40E6-98E9-67FE06360331}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B435B632-7EDD-40E6-98E9-67FE06360331}.Debug|Win32.Build.0 = Debug|Win32
+		{B435B632-7EDD-40E6-98E9-67FE06360331}.Release|Win32.ActiveCfg = Release|Win32
+		{B435B632-7EDD-40E6-98E9-67FE06360331}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
